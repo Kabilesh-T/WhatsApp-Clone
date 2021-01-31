@@ -9,6 +9,14 @@ import './SideBar.css'
 import ChatCard from '../ChatCard/ChatCard';
 
 function SideBar() {
+
+  const createNewChat = () => {
+    const name = prompt("Enter contact name...");
+    if (name) {
+      //TO-DO
+    }
+  };
+
   return (
     <div className="sidebar">
 
@@ -19,7 +27,7 @@ function SideBar() {
             <DonutLargeIcon />
           </IconButton>
           <IconButton>
-            <ChatIcon />
+            <ChatIcon onClick={createNewChat} />
           </IconButton>
           <IconButton>
             <MoreVertIcon />
