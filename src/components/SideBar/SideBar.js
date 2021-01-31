@@ -6,7 +6,7 @@ import MoreVertIcon from '@material-ui/icons/MoreVert';
 import SearchIcon from '@material-ui/icons/Search';
 
 import './SideBar.css'
-import ChatCard from './ChatCard/ChatCard';
+import ChatCard from '../ChatCard/ChatCard';
 
 function SideBar() {
   return (
@@ -36,6 +36,13 @@ function SideBar() {
 
       <div className="sidebar__body">
         <ChatCard />
+        <ChatCard />
+        <ChatCard />
+        <ChatCard />
+        <ChatCard />
+        <ChatCard />
+
+      
       </div>
     </div>
   )
