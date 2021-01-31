@@ -5,6 +5,7 @@ import ChatIcon from '@material-ui/icons/Chat';
 import MoreVertIcon from '@material-ui/icons/MoreVert';
 import SearchIcon from '@material-ui/icons/Search';
 
+import ChatCard from '../ChatCard/ChatCard';
 import './SideBar.css'
 
 function SideBar() {
@@ -33,7 +34,9 @@ function SideBar() {
         </div>
       </div>
 
-      <div className="sidebar__body"></div>
+      <div className="sidebar__body">
+        <ChatCard/>
+      </div>
     </div>
   )
 }
