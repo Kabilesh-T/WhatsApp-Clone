@@ -1,6 +1,6 @@
 import React from 'react'
 
-import './ChatCard.css'
+import '../SideBar.css'
 
 function ChatCard() {
   return (

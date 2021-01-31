@@ -5,8 +5,8 @@ import ChatIcon from '@material-ui/icons/Chat';
 import MoreVertIcon from '@material-ui/icons/MoreVert';
 import SearchIcon from '@material-ui/icons/Search';
 
-import ChatCard from '../ChatCard/ChatCard';
 import './SideBar.css'
+import ChatCard from './ChatCard/ChatCard';
 
 function SideBar() {
   return (
@@ -35,7 +35,7 @@ function SideBar() {
       </div>
 
       <div className="sidebar__body">
-        <ChatCard/>
+        <ChatCard />
       </div>
     </div>
   )
