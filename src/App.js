@@ -1,9 +1,14 @@
 import './App.css';
+import SideBar from './components/SideBar/SideBar';
 
 function App() {
   return (
-    <div className="App">
-     <h1>WhatsApp Web</h1>
+    <div className="app">
+     <div className="app__body">
+      {/* Sidebar */}
+      <SideBar/>
+      {/* Main Chat */}
+     </div>
     </div>
   );
 }
