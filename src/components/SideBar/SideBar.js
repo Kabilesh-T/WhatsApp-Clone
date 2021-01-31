@@ -6,8 +6,17 @@ import MoreVertIcon from '@material-ui/icons/MoreVert';
 import SearchIcon from '@material-ui/icons/Search';
 
 import './SideBar.css'
+import ChatCard from '../ChatCard/ChatCard';
 
 function SideBar() {
+
+  const createNewChat = () => {
+    const name = prompt("Enter contact name...");
+    if (name) {
+      //TO-DO
+    }
+  };
+
   return (
     <div className="sidebar">
 
@@ -18,7 +27,7 @@ function SideBar() {
             <DonutLargeIcon />
           </IconButton>
           <IconButton>
-            <ChatIcon />
+            <ChatIcon onClick={createNewChat} />
           </IconButton>
           <IconButton>
             <MoreVertIcon />
@@ -33,7 +42,16 @@ function SideBar() {
         </div>
       </div>
 
-      <div className="sidebar__body"></div>
+      <div className="sidebar__body">
+        <ChatCard />
+        <ChatCard />
+        <ChatCard />
+        <ChatCard />
+        <ChatCard />
+        <ChatCard />
+
+      
+      </div>
     </div>
   )
 }

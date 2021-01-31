@@ -1,0 +1,28 @@
+.chatCard {
+  display: flex;
+  padding: 10px 10px 0px 10px;
+  cursor: pointer;
+}
+
+.chatCard:hover {
+  background-color: #f0f0f0;
+}
+
+.chartCard__details {
+  margin-left: 10px;
+  width: 100%;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.chartCard__details > h2 {
+  font-size: 16px;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+.chartCard__details > p {
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: rgb(94, 94, 94);
+  font-weight: 350;
+}

@@ -27,7 +27,7 @@
 .sidebar__search {
   display: flex;
   align-items: center;
-  background-color: #f3f3f3;
+  background-color:#f8f8f8;
   padding: 10px;
   height: 39px;
 }
@@ -49,4 +49,10 @@
 .sidebar__searchContainer > .MuiSvgIcon-root {
   margin-left: 10px;
   color: gray;
+}
+
+.sidebar__body {
+ flex: 1;
+ background-color: white;
+ overflow: auto; 
 }
